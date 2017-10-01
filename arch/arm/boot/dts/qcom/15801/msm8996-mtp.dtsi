@@ -619,7 +619,6 @@
 			gpios = <&pm8994_gpios 3 0x1>;
 			linux,input-type = <1>;
 			linux,code = <115>;
-			gpio-key,wakeup;
 			debounce-interval = <15>;
 		};
 
@@ -628,7 +627,6 @@
 			gpios = <&pm8994_gpios 2 0x1>;
 			linux,input-type = <1>;
 			linux,code = <114>;
-			gpio-key,wakeup;
 			debounce-interval = <15>;
 		};
 
